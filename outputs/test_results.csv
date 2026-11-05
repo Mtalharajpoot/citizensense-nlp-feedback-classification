@@ -1,0 +1,7 @@
+target,which,model,accuracy,precision,recall,macro_f1
+category,baseline,word + LogReg (baseline),0.792,0.814,0.794,0.792
+category,best,word+char + LinearSVC,0.831,0.84,0.832,0.831
+sentiment,baseline,word + LogReg (baseline),0.87,0.827,0.804,0.814
+sentiment,best,word + LogReg (baseline),0.87,0.827,0.804,0.814
+priority,baseline,word + LogReg (baseline),0.597,0.55,0.51,0.508
+priority,best,char + LogReg,0.558,0.464,0.473,0.462

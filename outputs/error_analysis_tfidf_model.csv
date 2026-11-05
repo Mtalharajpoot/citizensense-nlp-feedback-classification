@@ -1,0 +1,26 @@
+text,actual,predicted,source,error_type,possible_reason
+How can we report a leaking pipe on the main street?,Water Supply,Electricity,test,Few or rare keywords,Neutral question with generic words; 'pipe' is rare in training data
+Deep trench for cable laying was not refilled properly and has sunk.,Roads / Infrastructure,Health,test,Multi-topic text,Cable laying (electricity) and trench (road) in one sentence
+"Nalkay se ganda pani aa raha hai, peena mushkil hai.",Water Supply,Sanitation,test,Roman Urdu / unseen words,'nalkay' never seen in English training data; 'ganda' pulled it to Sanitation
+Rubbish is piled up near the water tank and spreading disease.,Sanitation,Water Supply,test,Multi-topic text,"Mentions rubbish, water tank and disease, so three categories overlap"
+The new meter was installed on the promised date.,Electricity,Water Supply,test,Positive wording hides topic,Praise wording; 'meter' also appears in water complaints
+Filtration plant band hone ki wajah se log bimar ho rahe hain.,Water Supply,Electricity,test,Roman Urdu / unseen words,Roman Urdu text with no known topic words
+The online challan system is quick and easy to use.,Traffic,Health,test,Positive wording hides topic,Praise wording; 'challan' is rare in training data
+Requesting a pedestrian bridge near the university gate.,Roads / Infrastructure,Traffic,test,Ambiguous label,Pedestrian bridge is both road infrastructure and traffic safety
+Lady health workers visit our street regularly.,Health,Sanitation,test,Misleading keyword,'health workers' pushed it toward cleanliness-type words like 'street' and 'regularly'
+Requesting an inspection of the old wiring in the community hall.,Electricity,Health,test,Few or rare keywords,Neutral inspection request without strong electrical words
+The linemen were very professional and fixed the wire quickly.,Electricity,Water Supply,test,Positive wording hides topic,Praise wording; 'fixed quickly' is common across categories
+Challan receipts are given without any proof or explanation.,Traffic,Health,test,Few or rare keywords,"'receipts' and 'explanation' look like billing complaints, 'challan' is rare"
+Please add reflectors on the sharp curve of the highway link road.,Roads / Infrastructure,Traffic,test,Ambiguous label,Reflectors on a curve are road equipment as well as traffic safety
+No streetlights on the new bypass road make it unsafe after dark.,Roads / Infrastructure,Electricity,cv,Ambiguous label,Streetlights are labeled both Roads and Electricity in the dataset
+Please send a lineman to check the faulty wire.,Electricity,Health,cv,Few or rare keywords,Very short request; 'lineman' is rare
+Tanker service has been on time for the past two weeks.,Water Supply,Roads / Infrastructure,cv,Positive wording hides topic,Praise wording; 'service' and 'on time' are generic
+Public toilets near the bus stand are filthy and without water.,Sanitation,Water Supply,cv,Multi-topic text,Toilets (sanitation) and lack of water (water supply) in one sentence
+Is a planned maintenance shutdown scheduled this weekend?,Electricity,Roads / Infrastructure,cv,Few or rare keywords,Neutral maintenance notice with no electricity keyword
+The leakage outside our house was repaired quickly.,Water Supply,Roads / Infrastructure,cv,Misleading keyword,'outside our house' and 'repaired' are common in road complaints
+Sidewalk is too narrow for wheelchairs.,Roads / Infrastructure,Health,cv,Misleading keyword,'wheelchairs' appears in hospital complaints in the training data
+The loose wires were tied up safely after we reported them.,Electricity,Roads / Infrastructure,cv,Positive wording hides topic,Praise wording; 'safely tied up' is generic
+The staff at the water office were very helpful with my connection.,Water Supply,Health,cv,Misleading keyword,'staff' and 'helpful' are common in Health praise samples
+Street lights on our road were fixed quickly after my complaint.,Roads / Infrastructure,Electricity,cv,Ambiguous label,Streetlights on a road: Roads or Electricity
+Pani ki supply ka naya time table bata dein.,Water Supply,Sanitation,cv,Roman Urdu / unseen words,'time table' appears mostly in Sanitation samples (garbage collection timetable)
+Barish mein road par pani jama ho jata hai aur guzarna mushkil hota hai.,Roads / Infrastructure,Traffic,cv,Roman Urdu / unseen words,Mixed road and water words in Roman Urdu; 'guzarna' unseen

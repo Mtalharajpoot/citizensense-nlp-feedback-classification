@@ -1,0 +1,13 @@
+target,model,cv_acc,cv_acc_std,cv_macro_f1
+category,word + LogReg (baseline),0.769,0.012,0.767
+category,char + LogReg,0.832,0.032,0.832
+category,word+char + LogReg,0.829,0.016,0.829
+category,word+char + LinearSVC,0.843,0.009,0.842
+sentiment,word + LogReg (baseline),0.905,0.027,0.873
+sentiment,char + LogReg,0.859,0.039,0.816
+sentiment,word+char + LogReg,0.892,0.039,0.857
+sentiment,word+char + LinearSVC,0.898,0.02,0.869
+priority,word + LogReg (baseline),0.589,0.039,0.54
+priority,char + LogReg,0.598,0.025,0.566
+priority,word+char + LogReg,0.605,0.031,0.563
+priority,word+char + LinearSVC,0.605,0.016,0.56

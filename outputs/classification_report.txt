@@ -1,0 +1,15 @@
+Final category model: multilingual sentence embeddings + Logistic Regression
+Trained on train+val (433), evaluated once on test (77)
+
+                        precision    recall  f1-score   support
+
+           Electricity       0.71      0.77      0.74        13
+                Health       0.86      1.00      0.92        12
+Roads / Infrastructure       0.67      0.62      0.64        13
+            Sanitation       0.86      0.92      0.89        13
+               Traffic       0.77      0.77      0.77        13
+          Water Supply       0.90      0.69      0.78        13
+
+              accuracy                           0.79        77
+             macro avg       0.79      0.79      0.79        77
+          weighted avg       0.79      0.79      0.79        77

@@ -1,0 +1,17 @@
+Text Sample,Actual Label,Predicted Label,Error Type,Possible Reason
+Deep trench for cable laying was not refilled properly and has sunk.,Roads / Infrastructure,Electricity,Overlapping categories,Cable trench is electrical work but damage is to the road.
+Street lights on the main road have not worked for two weeks.,Roads / Infrastructure,Electricity,Label ambiguity,Street lights can be Roads or Electricity; guideline unclear.
+"Nalkay se ganda pani aa raha hai, peena mushkil hai.",Water Supply,Sanitation,Roman Urdu,Dirty water sits between Water Supply and Sanitation.
+"Bijli ka masla hal ho gaya hai, bohat shukriya.",Electricity,Roads / Infrastructure,"Roman Urdu, positive feedback",Thank-you message with no strong category word.
+"Bijli ka bill bohat zyada aya hai, meter check karwayen.",Electricity,Traffic,Roman Urdu,Roman Urdu words for bill and meter are weakly understood.
+Public tap ki tonti toot gayi hai aur pani zaya ho raha hai.,Water Supply,Traffic,Roman Urdu,"Rare Roman Urdu words (tonti, zaya) not linked to water."
+Filtration plant band hone ki wajah se log bimar ho rahe hain.,Water Supply,Sanitation,"Roman Urdu, overlapping categories",Health effect of a water plant; three categories overlap.
+The online challan system is quick and easy to use.,Traffic,Electricity,Unseen topic,Few training samples about challan; positive tone.
+Requesting a pedestrian bridge near the university gate.,Roads / Infrastructure,Traffic,Inconsistent labeling,Pedestrian bridge can be Roads or Traffic; labels inconsistent.
+The road lights are off every night.,Roads / Infrastructure,Electricity,Label ambiguity,Same street-light ambiguity: Roads vs Electricity.
+The meter reader never visits our area.,Electricity,Health,"Short text, few keywords",Very short text; resembles health-worker visit samples.
+"Pani ki supply ab bohat behtar ho gayi hai, shukriya.",Water Supply,Roads / Infrastructure,"Roman Urdu, positive feedback",Positive Roman Urdu text with no complaint keywords.
+There is no zebra crossing near the school.,Traffic,Roads / Infrastructure,Overlapping categories,Zebra crossing is road safety; Roads and Traffic overlap.
+The drainage along the road now works well and there is no water standing.,Roads / Infrastructure,Water Supply,Multi-issue text,"Drainage, road and standing water in one positive sentence."
+Challan receipts are given without any proof or explanation.,Traffic,Health,Unseen topic,Few challan examples; resembles billing complaints.
+Machar bohat ho gaye hain kyunke nali mein pani jama hai.,Sanitation,Roads / Infrastructure,"Roman Urdu, overlapping categories",Standing drain water resembles road waterlogging samples.

@@ -1,0 +1,9 @@
+method,target,data,accuracy,macro_f1
+Zero-shot (embedding similarity),category,trval (433),0.783,0.783
+Zero-shot (embedding similarity),category,test (77),0.857,0.862
+Embeddings + LogReg,category,CV on trval,0.855,0.853
+Embeddings + LogReg,category,test (77),0.792,0.791
+Embeddings + LogReg,sentiment,CV on trval,0.926,0.907
+Embeddings + LogReg,sentiment,test (77),0.883,0.847
+Embeddings + LogReg,priority,CV on trval,0.584,0.551
+Embeddings + LogReg,priority,test (77),0.545,0.462
